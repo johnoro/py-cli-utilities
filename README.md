@@ -34,15 +34,23 @@ Note that the actual outputs have been transformed primarily into more readable 
 
   Usage: python calculator.py {number} {operator} {number} ...
 
-  Operators: +, -, \*, /
+  Operators: +, -, \*, /, ^
 
   Example: python calculator.py 5 + 5
 
   Output: 10
 
+  Example: python calculator.py 5 ^ 2
+
+  Output: 25
+
   Example: python calculator.py 5 \* 5 + 5
 
   Output: 30
+
+  Example: python calculator.py 5 + 5 / 5
+
+  Output: 2 _Note that the order of operations is not followed._
 
 ---
 
