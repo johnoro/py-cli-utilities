@@ -52,7 +52,9 @@ Note that the actual outputs have been transformed primarily into more readable 
 
   Example: python calculator.py 5 + 5 / 5
 
-  Output: 2 _Note that the order of operations is not followed._
+  Output: 2
+
+  _**Note**: Order of operations is not followed._
 
 ---
 
