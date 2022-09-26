@@ -5,7 +5,7 @@ import os
 
 def main():
     args = sys.argv[1:]
-    src_dir = 'src'
+    src_dir = 'classes'
     dirs = os.listdir(src_dir)
     functions = [f.removesuffix('.py') for f in dirs]
     functions.remove('main')
@@ -15,14 +15,14 @@ def main():
     while True:
         if not args:
             try:
-                args = input('\nPlease enter a function name, with any arguments after it with spaces in between: ').split(' ')
+                args = input('\nPlease enter a function name: ').split(' ')
             except KeyboardInterrupt:
                 print('Exiting...')
                 sys.exit()
         func = args[0]
         if func in functions:
             try:
-                os.system(f'python {src_dir}/{func}.py {" ".join(args[1:]) if len(args) > 1 else ""}')
+                os.system(f'python {src_dir}/{func}.py')
             except KeyboardInterrupt:
                 print('Exiting...')
                 sys.exit()

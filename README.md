@@ -6,13 +6,15 @@ A number of simple CLI python scripts primarily for demonstrative purposes.
 
 ## **How to run**
 
-If you'd like the most simple way forward, run `python src/main.py` and follow the prompts.
+If you'd like the most simple way forward, run `python functions/main.py` and follow the prompts.
 
-To use, run src/main.py with the desired script name as an argument. For example, to run the hello world script, run `python src/main.py leap_year 40`. You may also run the script directly, e.g. `python src/leap_year.py 40`. You may also omit arguments (file/function names and their arguments included) and you will be prompted for them.
+To use, run src/main.py with the desired script name as an argument. For example, to run the hello world script, run `python functions/main.py leap_year 40`. You may also run the script directly, e.g. `python functions/leap_year.py 40`. You may also omit arguments (file/function names and their arguments included) and you will be prompted for them.
+
+For the newly added classes section, run `python classes/main.py` and follow the prompts. No CLI arguments are supported for the specific class scripts, but you can still run `python classes/main.py <class_name>` or `python classes/ <class_name>.py` to run the class script directly.
 
 ---
 
-## **Scripts**
+## **Functional Scripts**
 
 Note that the actual outputs have been transformed primarily into more readable print statements.
 
